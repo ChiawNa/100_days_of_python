@@ -31,14 +31,29 @@ print("New lines can be created with a backslash and n.")
 print("\n")
 
 
-
-print("Lesson 3:- Input Variable\n")
+print("Lesson 3:- Input Function\n")
 
 #Write a program that calculates and outputs the number of characters in any name. 
 #The automated tests will try out lots of different names as the input. 
 #Your code should work for any name. 
 #Your code should only output the number, no other text is needed.
 
-
 name=input("What is your name? ")
 print(len(name))
+print("\n")
+
+
+print("Lesson 4:- Variables\n")
+
+# Write a program that switches the values stored in the variables a and b.
+
+a = input("Insert the value of a: ")
+b = input("Insert the value of b: ")
+
+temp = a
+a = b
+b = temp
+
+print("a: " + a)
+print("b: " + b)
+print("\n")
