@@ -1,29 +1,29 @@
-# print("Lesson3 :- Multiple If statements\n")
+print("Lesson3 :- Multiple If statements\n")
 
-# print("Welcome to the rollercoaster!")
-# height = int(input("What is your height in cm? "))
-# bill = 0
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm? "))
+bill = 0
 
-# if height > 120:
-#     print("You can ride the rollercoaster.")
-#     age = int(input("What is your age? "))
-#     if age < 12:
-#         bill = 5
-#         print("Please pay $5.")
-#     elif age <18:
-#         bill = 7
-#         print("Please pay $7.")
-#     else:
-#         bill = 12
-#         print("Please pay $12.")
+if height > 120:
+    print("You can ride the rollercoaster.")
+    age = int(input("What is your age? "))
+    if age < 12:
+        bill = 5
+        print("Please pay $5.")
+    elif age <18:
+        bill = 7
+        print("Please pay $7.")
+    else:
+        bill = 12
+        print("Please pay $12.")
 
-#     want_photo = input("Do you want a photo taken? Y or N. ")
-#     if want_photo == "Y":
-#         bill += 3
+    want_photo = input("Do you want a photo taken? Y or N. ")
+    if want_photo == "Y":
+        bill += 3
 
-#     print(f"Your final bill is {bill}")
-# else:
-#     print("Sorry, you have to grow taller before you can ride.")
+    print(f"Your final bill is {bill}")
+else:
+    print("Sorry, you have to grow taller before you can ride.")
 
 
     
@@ -35,32 +35,32 @@
 # Add pepperoni for medium or large pizza (Y or N): +$3
 # Add extra cheese for any size pizza (Y or N): +$1
 
-# print("Thank you for choosing Python Pizza Deliveries!")
-# size = input() # What size pizza do you want? S, M, or L
-# add_pepperoni = input() # Do you want pepperoni? Y or N
-# extra_cheese = input() # Do you want extra cheese? Y or N
+print("Thank you for choosing Python Pizza Deliveries!")
+size = input() # What size pizza do you want? S, M, or L
+add_pepperoni = input() # Do you want pepperoni? Y or N
+extra_cheese = input() # Do you want extra cheese? Y or N
 
-# bill = 0
+bill = 0
 
-# if size == "S":
-#     bill = 15
+if size == "S":
+    bill = 15
 
-#     if add_pepperoni == "Y":
-#         bill += 2
+    if add_pepperoni == "Y":
+        bill += 2
 
-# elif size == "M":
-#     bill = 20
+elif size == "M":
+    bill = 20
 
-# else:
-#     bill = 25
+else:
+    bill = 25
 
-# if add_pepperoni == "Y":
-#         bill += 3
+if add_pepperoni == "Y":
+        bill += 3
 
-# if extra_cheese == "Y":
-#     bill += 1
+if extra_cheese == "Y":
+    bill += 1
 
-# print(f"Your final bill is: ${bill}.")
+print(f"Your final bill is: ${bill}.")
 
 print("Lesson4 :- Logical Operators\n")
 
