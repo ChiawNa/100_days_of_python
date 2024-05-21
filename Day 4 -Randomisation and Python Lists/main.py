@@ -23,11 +23,22 @@
 #     print("Tails")
 
 
-print("Lesson 2 - Offset and Appending Item to List\n")
+# print("Lesson 2 - Offset and Appending Item to List\n")
 
-states_of_america = ["Delaware", "New Jersey", "Georgia", "New York","Alaska", "Hawaii"]
-print(states_of_america[-1])
+# states_of_america = ["Delaware", "New Jersey", "Georgia", "New York","Alaska", "Hawaii"]
+# print(states_of_america[-1])
 
-states_of_america.append("California")
-print(states_of_america)
+# states_of_america.append("California")
+# print(states_of_america)
 
+
+# You are going to write a program that will select a random name from a list of names. 
+# The person selected will have to pay for everybody's food bill.
+
+import random
+
+names_string = "Angela, Ben, Jenny, Michael, Chloe"
+names = names_string.split(", ")
+
+random_name =  random.choice(names)
+print(f"{random_name} is going to buy the meal today!")
