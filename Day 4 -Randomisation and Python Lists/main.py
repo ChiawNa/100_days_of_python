@@ -35,10 +35,27 @@
 # You are going to write a program that will select a random name from a list of names. 
 # The person selected will have to pay for everybody's food bill.
 
-import random
+# import random
 
-names_string = "Angela, Ben, Jenny, Michael, Chloe"
-names = names_string.split(", ")
+# names_string = "Angela, Ben, Jenny, Michael, Chloe"
+# names = names_string.split(", ")
 
-random_name =  random.choice(names)
-print(f"{random_name} is going to buy the meal today!")
+# random_name =  random.choice(names)
+# print(f"{random_name} is going to buy the meal today!")
+
+
+print("Lesson 3 - Index Error and Working with Nested List\n")
+
+fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+dirty_dozen = [fruits, vegetables]
+ 
+print(dirty_dozen[1][1])
+
+print(dirty_dozen)
+
+print(dirty_dozen[0])
+print(dirty_dozen[1])
+
+print(dirty_dozen[1][2])
+print(dirty_dozen[1][3])
