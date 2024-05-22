@@ -44,18 +44,39 @@
 # print(f"{random_name} is going to buy the meal today!")
 
 
-print("Lesson 3 - Index Error and Working with Nested List\n")
+# print("Lesson 3 - Index Error and Working with Nested List\n")
 
-fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
-vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
-dirty_dozen = [fruits, vegetables]
+# fruits = ["Strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+# vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+# dirty_dozen = [fruits, vegetables]
  
-print(dirty_dozen[1][1])
+# print(dirty_dozen[1][1])
 
-print(dirty_dozen)
+# print(dirty_dozen)
 
-print(dirty_dozen[0])
-print(dirty_dozen[1])
+# print(dirty_dozen[0])
+# print(dirty_dozen[1])
 
-print(dirty_dozen[1][2])
-print(dirty_dozen[1][3])
+# print(dirty_dozen[1][2])
+# print(dirty_dozen[1][3])
+
+
+print("Exercise - Treasure Map\n")
+
+line1 = ["⬜️","️⬜️","️⬜️"]
+line2 = ["⬜️","⬜️","️⬜️"]
+line3 = ["⬜️️","⬜️️","⬜️️"]
+map = [line1, line2, line3]
+print("Hiding your treasure! X marks the spot.")
+position = input() # Where do you want to put the treasure?
+
+letter = position[0].lower()
+abc = ["a", "b", "c"]
+letter_index = abc.index(letter) # will get 1
+number_index = int(position[1]) - 1 # will get 2
+map[number_index][letter_index] = "X"
+
+# print(letter_index)
+#print(number_index)
+
+print(f"{line1}\n{line2}\n{line3}")
