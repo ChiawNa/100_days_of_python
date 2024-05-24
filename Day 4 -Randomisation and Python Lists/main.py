@@ -77,6 +77,6 @@ number_index = int(position[1]) - 1 # will get 2
 map[number_index][letter_index] = "X"
 
 # print(letter_index)
-#print(number_index)
+# print(number_index)
 
 print(f"{line1}\n{line2}\n{line3}")
