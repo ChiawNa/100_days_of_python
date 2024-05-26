@@ -51,3 +51,29 @@ total = 0
 for i in range(2, target+1, 2):
     total = total + i
 print(total)
+
+
+# while loop
+
+target = int(input()) # Enter a number between 0 and 1000
+
+i = 2
+total = 0
+
+while (i<=target):
+  total = total + i
+  i = i + 2
+print(total)
+
+
+
+# use modules %
+
+target = int(input()) # Enter a number between 0 and 1000
+
+total = 0
+
+for i in range(2, target+1):
+  if i%2 == 0:
+    total = total + i
+print(total)
