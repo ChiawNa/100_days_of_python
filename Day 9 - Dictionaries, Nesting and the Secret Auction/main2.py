@@ -56,7 +56,7 @@ def add_new_country(country, visits, list_of_cities):
                  "visits": visits,
                  "cities": list_of_cities}
 
-    travel_log.append(new_entry)
+    travel_log.append(new_entry) #append can only used for list but not dictionary
 
 
 # Do not change the code below 👇
