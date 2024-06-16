@@ -1,0 +1,1 @@
+print(f"{first_num}{operation}{second_num} = {answer}")
