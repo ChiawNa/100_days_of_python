@@ -1,10 +1,9 @@
-import random
+from random import randint
 from art import logo 
 
 def play_game(attempt):
 
-    num = range(1,101)
-    number = random.choice(num)
+    number = randint(1,100)
     finish_guess = False
 
     while attempt > 0 and not finish_guess:
@@ -18,7 +17,7 @@ def play_game(attempt):
             print("Too low.")
         
         elif guess == number:
-            print("Correct answer!")
+            print(f"You got it! The answer is {number}")
             finish_guess = True
 
         attempt -= 1
