@@ -43,4 +43,3 @@ while not finish_game:
         else:
             print(f"Sorry that's wrong. Current score: {score}")
             finish_game = True
-
