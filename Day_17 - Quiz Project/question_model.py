@@ -5,5 +5,5 @@ class Question:
 
 new_q = Question("abcde","False")
 
-print(new_q.text)
-print(new_q.answer)
+# print(new_q.text)
+# print(new_q.answer)
