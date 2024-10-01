@@ -4,6 +4,3 @@ class Question:
         self.answer = answer
 
 new_q = Question("abcde","False")
-
-# print(new_q.text)
-# print(new_q.answer)
