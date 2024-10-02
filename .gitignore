@@ -93,4 +93,6 @@ Pipfile.lock
 
 # Environment variables
 .env
-.venv
+
+# Environment directory
+.venv/
