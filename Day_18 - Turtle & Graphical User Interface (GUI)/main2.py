@@ -62,12 +62,12 @@ def random_color():
 
 tim.speed(0)
 
-for _ in range(100):
-    tim.color(random_color())
-    tim.circle(100)
-    current_heading = tim.heading()
-    tim.setheading(current_heading + 10)
-    tim.circle(100)
+def draw_spirograph(size_of_gap):
+    for _ in range(int(360/size_of_gap)):
+        tim.color(random_color())
+        tim.circle(100)
+        current_heading = tim.heading()
+        tim.setheading(current_heading + size_of_gap)
+        tim.circle(100)
 
-screen = t.Screen()
-screen.exitonclick
+draw_spirograph(10)
