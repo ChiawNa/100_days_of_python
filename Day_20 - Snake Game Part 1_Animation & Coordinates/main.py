@@ -10,6 +10,12 @@ screen.tracer(0)
 
 snake = Snake()
 
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
+
 # position = [(0,0), (-20,0), (-40,0)]
 # all_segments = []
 
@@ -37,17 +43,6 @@ while game_is_on:
 #         all_segments[seg_num].goto(new_x, new_y)
 
 #     all_segments[0].forward(20)
-
-# segment_1 = Turtle("square")
-# segment_1.color("white")
-
-# segment_2 = Turtle("square")
-# segment_2.color("white")
-# segment_2.goto(-20, 0)
-
-# segment_3 = Turtle("square")
-# segment_3.color("white")
-# segment_3.goto(-40, 0)
 
 
 screen.exitonclick()
